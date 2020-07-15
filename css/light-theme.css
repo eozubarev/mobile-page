@@ -3,6 +3,7 @@
 .section-top {
     display: flex;
     justify-content: center;
+    padding: 10px 0px 10px;
 
     transition: all .5s;
   }
