@@ -53,6 +53,8 @@
     position: relative;
     transition: .5s;
     overflow: hidden;
+      
+    outline: none;
   }
   
   .butt::after {
