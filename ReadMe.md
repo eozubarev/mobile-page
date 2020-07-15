@@ -1,6 +1,6 @@
 ### Hello. My name is Evgeny Zubarev i am junior Frontend Developer. 
 
-#### Это моё тестовое задание для компании Bingo Boom проекта Atmosphera (name of [Тестовое задание](https://eozubarev.github.io/mobile-page)).
+#### Это моё тестовое задание для компании Bingo Boom проекта Atmosphera ([Тестовое задание](https://eozubarev.github.io/mobile-page)).
 
 * Technology stack:
  1. HTML
