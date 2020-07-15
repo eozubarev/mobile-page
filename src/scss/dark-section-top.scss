@@ -1,0 +1,123 @@
+// /* Dark theme start */
+
+// .section-top {
+
+//     background-color: #2B234C;
+//     height: 100vh;
+
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     text-align: center;
+//     padding: 100px 0 100px;
+
+//     &__container {
+//         width: 474px; 
+//     }
+
+//     &__title {
+//         font-family: "Arial"; 
+//         font-weight: 600;
+//         text-align: center;
+//         color: #fff;
+//         margin: 35px 0 35px;
+
+//         font-size: calc(22px + 2 * ((100vw - 320px) / (1280 - 320)));
+
+//     }
+
+//     @media (max-width: 576px) {
+//         &__title {
+//             margin: 25px 0 25px;
+//         }
+//     }
+
+//     &__btn {
+//     }
+// }
+//     .btn-cancel {
+//     background: inherit;
+//     color: #D259F5;
+//     box-shadow: none;
+//     padding: 18px 20px;
+//     cursor: pointer;
+
+//     font-size: 15px;
+//     font-family: 'Roboto', sans-serif;
+//     font-style: italic;
+//     font-weight: normal;
+//     text-transform: inherit;
+
+//     border: 0;
+//     display: block;
+//     margin: 0 auto;
+
+//     transition: color .2s linear;
+// }
+// .btn-cancel:hover {
+//     background: inherit;
+//     color: #fff; 
+    
+// }
+
+// .cat-bg {
+//     border-radius: 5px;
+//     width: 100%;
+// }
+
+// .butt {
+//     background-color: #D259F5;
+//     color: #FFF;
+  
+//     text-decoration: none;
+//     text-transform: uppercase;
+  
+//     width: 576px;
+//     height: 58px;
+//     max-height: 100%;
+//     max-width: 100%;
+//     padding: 20px 0 20px;
+  
+//     display: block;
+  
+//     text-align: center;
+//     border-radius: 8px;
+//     font-family: "Poppins", sans-serif;
+//     font-weight: 600;
+//     font-size: calc(15px + 1 * ((100vw - 320px) / (1280 - 320)));
+//     box-shadow: 0px 1px 10px rgba(210, 89, 245, 0.6);
+
+//     position: relative;
+//     transition: .5s;
+//     overflow: hidden;
+//    }
+  
+//    .butt::after {
+//     opacity: 1;
+//     transition-delay: .2s;
+//    }
+//    .butt:hover {
+//     background-color: #8a39a0;
+//    }
+//    .butt:hover::before,
+//    .butt:hover::after {
+//     left: 0;
+//    }
+   
+   
+//    .pulse {
+//     background-color: #D259F5;
+//     border-radius: 50%;
+//     animation: pulse 0.7s ease-out;
+//     transform: scale(0);
+//     position: absolute;
+//    }
+//    @keyframes pulse {
+//     to {
+//      transform: scale(2);
+//      background-color: #fff;
+//      opacity: 0;
+//     }
+//    }
+
+// /* Dark theme end */
