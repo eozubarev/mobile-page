@@ -57,13 +57,5 @@ function ChangeTheme()
 
 //change theme end
 
-function toggleTheme(theme) {
-    const btn = document.getElementById("theme-button");
-    btn.classList.remove('dark', 'light')
-    if (theme == 'dark') {
-        btn.classList.add('dark')
-    } else {
-        btn.classList.add('light')
-    }
-}
+
 
