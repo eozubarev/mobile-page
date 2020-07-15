@@ -118,6 +118,7 @@
     .section-top__title {
       margin: 25px 0 25px;
     }
+  
   }
   @media (max-width: 320px) {
     .section-top__title {
@@ -125,7 +126,7 @@
     }
 
     .butt {
-      padding: 12px 0 px;
+      padding: 12px 0 12px;
     }
   }
 
