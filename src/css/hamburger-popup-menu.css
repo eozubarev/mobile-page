@@ -1,0 +1,171 @@
+/* popup start */
+.popup {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.popup.is-active {
+  pointer-events: auto;
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup__wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.popup__inner {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 50px 0;
+}
+
+.popup__content {
+  background: #fff;
+  padding: 70px 20px;
+  max-width: 730px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 20px;
+}
+
+.popup__content--fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.popup__content--centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup__btn-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.popup__mobile-menu {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 767px) {
+  .popup__inner {
+    padding: 0;
+  }
+
+  .popup__content {
+    max-width: 100%;
+    min-height: 100vh;
+    border-radius: 0;
+    padding-top: 100px;
+  }
+}
+/* popup end */
+
+/* socials start */
+.socials {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.socials__item {
+  margin-right: 25px;
+}
+
+.socials__link {
+  display: inline-block;
+}
+
+.socials__icon {
+  fill: #fbd633;
+  width: 35px;
+  height: 35px;
+  transition: fill 0.2s, opacity 0.2s;
+}
+
+.socials__icon--vk:hover {
+  fill: #5078a5;
+}
+
+.socials__icon--fb:hover {
+  fill: #3e58a1;
+}
+
+.socials__icon--inst:hover {
+  fill: #e6369c;
+}
+
+.socials__icon:active {
+  opacity: 0.7;
+}
+
+.socials__logo {
+  fill: #fff;
+}
+
+@media (max-width: 767px) {
+  .socials__item {
+    margin-right: 15px;
+  }
+
+  .socials__icon {
+    width: 45px;
+    height: 45px;
+  }
+}
+/* socials end */
+
+/* mobile-menu start */
+.mobile-menu {
+  width: 100%;
+}
+
+.mobile-menu__ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-menu__link {
+  text-decoration: none;
+  padding: 20px 0;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  color: rgb(44, 44, 44);
+  font-weight: 600;
+  text-align: center;
+  transition: background 0.2s, color 0.2s, opacity 0.2s;
+}
+
+.mobile-menu__link:hover {
+  background: #fbd633;
+  color: #fff;
+}
+
+.mobile-menu__link:active {
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .mobile-menu__link {
+    font-size: 20px;
+  }
+}
+/* mobile-menu end */
+
